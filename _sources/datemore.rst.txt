@@ -1,0 +1,30 @@
+datemore package
+================
+
+Submodules
+----------
+
+datemore.cli module
+-------------------
+
+.. automodule:: datemore.cli
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+datemore.datemore module
+------------------------
+
+.. automodule:: datemore.datemore
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: datemore
+   :members:
+   :undoc-members:
+   :show-inheritance:
