@@ -5,9 +5,13 @@
 
 import datetime
 
+import pytz
+
 import datemore.date
 import datemore.datetime
 import tests.common as c
+
+timezone = pytz.timezone("Europe/Berlin")
 
 
 def test_conversion_from_native() -> None:
@@ -22,13 +26,15 @@ def test_conversion_to_native() -> None:
 
 def test_now() -> None:
     c.assert_almost_equal(
-        datemore.datetime.Datetime.now().native(), datetime.datetime.now()
+        datemore.datetime.Datetime.now().native(),
+        timezone.localize(datetime.datetime.now()),
     )
 
 
 def test_today() -> None:
     c.assert_almost_equal(
-        datemore.datetime.Datetime.today().native(), datetime.datetime.today()
+        datemore.datetime.Datetime.today().native(),
+        timezone.localize(datetime.datetime.today()),
     )
 
 
