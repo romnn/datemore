@@ -24,19 +24,39 @@ datemore
 
 """"""""
 
-Your short description here. `romnnn.github.io/datemore <https://romnnn.github.io/datemore>`_
+This is a small python package that wraps useful extension helper methods
+around the standard library ``datetime`` package.
 
 .. code-block:: console
 
     $ pip install datemore
 
-See the `official documentation`_ for more information.
+This package extends ``date`` and ``datetime`` objects with
+useful methods for:
 
-.. _official documentation: https://datemore.readthedocs.io
+- Localizing ``date`` and ``datetime`` objects
+- Adding and subtracting
+- Generating date ranges
+- Mocking (you cannot mock builtins, so why not use this library in the first place :wink:)
+
+Example:
 
 .. code-block:: python
 
-    import datemore
+    import datemore.date
+    sunday = datemore.date.Date(2020, 2, 2)
+    tuesday = sunday.add_days(2)
+    passed_days = sunday.range_to(tuesday)
+    tuesday.native()  # Get the native datetime.date object
+
+Do you want to add new extensions? Go ahead!
+Contributions are welcome, have a look at `CONTRIBUTING <CONTRIBUTING.rst>`_.
+
+.. For more documentation, see `romnnn.github.io/datemore <https://romnnn.github.io/datemore>`_.
+
+See the `official documentation`_ for more information.
+
+.. _official documentation: https://datemore.readthedocs.io
 
 Development
 -----------
