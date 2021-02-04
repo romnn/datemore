@@ -14,10 +14,6 @@ datemore
         :target: https://github.com/romnn/datemore
         :alt: License
 
-.. image:: https://readthedocs.org/projects/datemore/badge/?version=latest
-        :target: https://datemore.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
 .. image:: https://codecov.io/gh/romnn/datemore/branch/master/graph/badge.svg
         :target: https://codecov.io/gh/romnn/datemore
         :alt: Test Coverage
@@ -51,12 +47,6 @@ Example:
 
 Do you want to add new extensions? Go ahead!
 Contributions are welcome, have a look at `CONTRIBUTING <CONTRIBUTING.rst>`_.
-
-.. For more documentation, see `romnn.github.io/datemore <https://romnn.github.io/datemore>`_.
-
-See the `official documentation`_ for more information.
-
-.. _official documentation: https://datemore.readthedocs.io
 
 Development
 -----------

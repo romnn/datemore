@@ -34,7 +34,6 @@ test_requirements = [
     "pyfakefs",
 ]
 coverage_requirements = ["coverage", "codecov"]
-docs_requirements = ["sphinx>=2.0", "romnn_sphinx_press_theme", "sphinxemoji"]
 formatting_requirements = ["flake8", "black==19.10b0", "isort"]
 tool_requirements = [
     "m2r",
@@ -49,7 +48,6 @@ dev_requirements = (
     requirements
     + test_requirements
     + coverage_requirements
-    + docs_requirements
     + formatting_requirements
     + tool_requirements
 )
@@ -76,7 +74,7 @@ setup(
     setup_requires=tool_requirements,
     tests_require=test_requirements,
     extras_require=dict(
-        dev=dev_requirements, docs=docs_requirements, test=test_requirements
+        dev=dev_requirements, test=test_requirements
     ),
     license="MIT",
     description=short_description,
