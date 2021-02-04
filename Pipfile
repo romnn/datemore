@@ -27,4 +27,5 @@ twine = "*"
 bump2version = "*"
 
 [packages]
+pytz = "*"
 datemore = {path = ".", editable = true}
