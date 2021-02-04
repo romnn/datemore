@@ -2,8 +2,8 @@
 datemore
 ===============================
 
-.. image:: https://travis-ci.com/romnn/datemore.svg?branch=master
-        :target: https://travis-ci.com/romnn/datemore
+.. image:: https://github.com/romnn/datemore/workflows/test/badge.svg
+        :target: https://github.com/romnn/datemore/actions
         :alt: Build Status
 
 .. image:: https://img.shields.io/pypi/v/datemore.svg
