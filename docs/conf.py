@@ -61,8 +61,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'datemore'
-copyright = u"%d, romnnn" % year
-author = u"romnnn"
+copyright = u"%d, romnn" % year
+author = u"romnn"
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -97,7 +97,7 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'press'  # Install with pip install romnnn_sphinx_press_theme
+html_theme = 'press'  # Install with pip install romnn_sphinx_press_theme
 
 # Theme options are theme-specific and customize the look and feel of a
 # theme further.  For a list of options available for each theme, see the
@@ -105,7 +105,7 @@ html_theme = 'press'  # Install with pip install romnnn_sphinx_press_theme
 #
 html_theme_options = {
   "external_links": [
-      ("Github", "https://github.com/romnnn/datemore")
+      ("Github", "https://github.com/romnn/datemore")
   ]
 }
 
@@ -147,7 +147,7 @@ latex_elements = {
 latex_documents = [
     (master_doc, 'datemore.tex',
      u'datemore Documentation',
-     u'romnnn', 'manual'),
+     u'romnn', 'manual'),
 ]
 
 

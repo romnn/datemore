@@ -2,24 +2,24 @@
 datemore
 ===============================
 
-.. image:: https://travis-ci.com/romnnn/datemore.svg?branch=master
-        :target: https://travis-ci.com/romnnn/datemore
+.. image:: https://travis-ci.com/romnn/datemore.svg?branch=master
+        :target: https://travis-ci.com/romnn/datemore
         :alt: Build Status
 
 .. image:: https://img.shields.io/pypi/v/datemore.svg
         :target: https://pypi.python.org/pypi/datemore
         :alt: PyPI version
 
-.. image:: https://img.shields.io/github/license/romnnn/datemore
-        :target: https://github.com/romnnn/datemore
+.. image:: https://img.shields.io/github/license/romnn/datemore
+        :target: https://github.com/romnn/datemore
         :alt: License
 
 .. image:: https://readthedocs.org/projects/datemore/badge/?version=latest
         :target: https://datemore.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://codecov.io/gh/romnnn/datemore/branch/master/graph/badge.svg
-        :target: https://codecov.io/gh/romnnn/datemore
+.. image:: https://codecov.io/gh/romnn/datemore/branch/master/graph/badge.svg
+        :target: https://codecov.io/gh/romnn/datemore
         :alt: Test Coverage
 
 """"""""
@@ -52,7 +52,7 @@ Example:
 Do you want to add new extensions? Go ahead!
 Contributions are welcome, have a look at `CONTRIBUTING <CONTRIBUTING.rst>`_.
 
-.. For more documentation, see `romnnn.github.io/datemore <https://romnnn.github.io/datemore>`_.
+.. For more documentation, see `romnn.github.io/datemore <https://romnn.github.io/datemore>`_.
 
 See the `official documentation`_ for more information.
 

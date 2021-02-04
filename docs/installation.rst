@@ -23,7 +23,7 @@ From sources
 
 To install datemore from the sources, first clone the repository::
 
-    $ git clone git://github.com/romnnn/datemore
+    $ git clone git://github.com/romnn/datemore
 
 After you obtained a local clone of the source, install with::
 
