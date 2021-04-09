@@ -29,3 +29,5 @@ bump2version = "*"
 [packages]
 pytz = "*"
 datemore = {path = ".", editable = true}
+cryptography = ">=3.3.2"
+urllib3 = ">=1.26.4"
